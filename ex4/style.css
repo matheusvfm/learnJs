@@ -1,0 +1,19 @@
+table {
+  border-collapse: collapse;
+  margin: auto;
+}
+
+td {
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#reset {
+  display: block;
+  margin: 10px auto;
+}

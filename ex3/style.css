@@ -1,0 +1,48 @@
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.password-generator {
+  margin: 20px auto;
+  max-width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.password-generator label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.password-generator input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.password-generator button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.password-generator button:hover {
+  background-color: #3e8e41;
+}
+
+#password-display {
+  font-size: 20px;
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
